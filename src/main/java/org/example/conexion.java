@@ -4,9 +4,9 @@ import java.sql.*;
 import javax.swing.DefaultListModel;
 
 public class conexion {
-    private static final String URL = "jdbc:mysql://ucmz8nvgtzx1jydz:vN8hLlajWSTKvzwxfy66@bxnknwo9rvftkuqw84n2-mysql.services.clever-cloud.com:3306/bxnknwo9rvftkuqw84n2";
-    private static final String USER = "ucmz8nvgtzx1jydz";
-    private static final String PASSWORD = "vN8hLlajWSTKvzwxfy66";
+    private static final String URL = "jdbc:mysql://localhost:3306/recuperacion";
+    private static final String USER = "root";
+    private static final String PASSWORD = "123456";
 
     public static Connection getConnection() {
         Connection conn = null;
