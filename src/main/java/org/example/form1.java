@@ -42,6 +42,12 @@ public class form1 {
                         formUsuario usuariox  = new formUsuario(frame);
                         usuariox.ventanaUsuario();
                     }
+
+                    frame.dispose();
+
+
+
+
                 } else {
                     // Mostrar mensaje de error si las credenciales son incorrectas
                     JOptionPane.showMessageDialog(frame, "Credenciales incorrectas", "Error", JOptionPane.ERROR_MESSAGE);
@@ -57,6 +63,7 @@ public class form1 {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800,600);
         frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
     }
 
 

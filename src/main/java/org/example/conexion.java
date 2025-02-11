@@ -4,7 +4,7 @@ import java.sql.*;
 import javax.swing.DefaultListModel;
 
 public class conexion {
-    private static final String URL = "jdbc:mysql://localhost:3306/recuperacion";
+    private static final String URL = "jdbc:mysql://localhost:3307/recuperacion";
     private static final String USER = "root";
     private static final String PASSWORD = "123456";
 

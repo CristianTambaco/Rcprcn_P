@@ -83,6 +83,7 @@ public class formAdministrador {
                 loginFrame.setVisible(true);
             }
         });
+        frame.setLocationRelativeTo(null);
     }
 
     private void createUIComponents() {
